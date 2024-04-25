@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Curso de javascript</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <hr>
+    <h2>Por Lucas Góngora</h2>
+    <div class="contenedor">
+        <input type="text" id="pantalla" class="visible " readonly>
+        <div class="subcontainer">
+            <input type="button"  value="7"  onclick="mostrasValor('7')">
+            <input type="button"  value="8" onclick="mostrasValor('8')">
+            <input type="button"  value="9" onclick="mostrasValor('9')">
+            <input type="button"  value="+" onclick="mostrasValor('+')">
+            <input type="button"  value="4" onclick="mostrasValor('4')">
+            <input type="button"  value="5" onclick="mostrasValor('5')">
+            <input type="button"  value="6" onclick="mostrasValor('6')">
+            <input type="button" value="-" onclick="mostrasValor('-')">
+            <input type="button"  value="1" onclick="mostrasValor('1')">
+            <input type="button"  value="2" onclick="mostrasValor('2')">
+            <input type="button"  value="3" onclick="mostrasValor('3')">
+            <input type="button"  value="*" onclick="mostrasValor('*')">
+            <input type="button"  value="0" onclick="mostrasValor('0')">
+            <input type="button" value="." onclick="mostrasValor('.')">
+            <input type="button" value="/" onclick="mostrasValor('/')">
+            
+            <input type="button" value="=" onclick="calcular()">
+            <input type="button" value="C" onclick="borrar()">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
